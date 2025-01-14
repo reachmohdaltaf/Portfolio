@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     name: 'Connectify',
     description: 'A Social Media Application that connects people seamlessly.',
-    logo: '/src/assets/logo.svg', // Replace with the actual path to the logo
+    logo: '../assets/11.png', // Replace with the actual path to the logo
     technologies: ['React', 'Redux', 'Javascript', 'Node.js'],
     link: 'https://connectify-h8zy.onrender.com/', // Replace with the actual route or external URL
   },
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     name: 'Chatify',
     description: 'Realtime Chat Application',
-    logo: '/src/assets/11.png',
+    logo: '../assets/12.png',
     technologies: ['React.js', 'Express.js', 'MongoDB'],
     link: 'https://realtime-chat-application-6w8u.onrender.com/', // Replace with the actual route or external URL
   },
@@ -24,7 +24,7 @@ const projectsData = [
     id: 3,
     name: 'Remote Job-Platform',
     description: 'Realtime Chat Application',
-    logo: '/src/assets/12.png',
+    logo: '../assets/12.png',
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS'],
     link: 'https://remote-jobs-platform.vercel.app/', // Replace with the actual route or external URL
   },
@@ -32,7 +32,7 @@ const projectsData = [
     id: 4,
     name: 'Invozo',
     description: 'Invoice generator',
-    logo: '/src/assets/image.png',
+    logo: '../assets/image.png',
     technologies: ['Next.js', 'Tailwind Css', 'React.js', 'Shadcn'],
     link: 'https://invozo-pges.vercel.app/', // Replace with the actual route or external URL
   },
@@ -40,7 +40,7 @@ const projectsData = [
     id: 5,
     name: 'Food',
     description: 'Product Catalog ',
-    logo: '/src/assets/image.png',
+    logo: '../assets/11.png',
     technologies: ['React.js', 'Tailwind Css', 'Redux'],
     link: 'https://invozo-pges.vercel.app/', // Replace with the actual route or external URL
   },
@@ -48,7 +48,7 @@ const projectsData = [
     id: 6,
     name: 'Expenzy',
     description: 'Expense Tracker helps you manage and track your personal finances',
-    logo: '/src/assets/image.png',
+    logo: '../assets/image.png',
     technologies: ['React.js', 'Tailwind Css', 'Redux'],
     link: 'https://invozo-pges.vercel.app/', // Replace with the actual route or external URL
   },

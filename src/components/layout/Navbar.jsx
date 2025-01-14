@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='h-[5rem] justify-between flex items-end'>
-      <ul className='flex gap-4'>
+<div className='h-[3rem] sm:h-[3rem] md:h-[5rem] lg:h-[5rem] justify-between flex items-end'>
+<ul className='flex gap-4'>
         <Link to='/'><li>Home</li></Link>
         <Link to='/projects'><li>Projects</li></Link>
         <Link to='/resume'><li>Resume</li></Link>

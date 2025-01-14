@@ -2,7 +2,11 @@
     
     const Blog = () => {
       return (
-        <div>Blog</div>
+        <div>
+          <h1 className='font-serif'>Writing 🧑🏻‍💻</h1>
+
+          
+        </div>
       )
     }
     

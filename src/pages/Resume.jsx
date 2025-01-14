@@ -26,12 +26,12 @@ const Resume = () => {
  
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col text-start gap-4">
       <h1 className="font-serif">My Resume 📝</h1>
       <h2 className="text-2xl mt-8 font-medium">Work Experience</h2>
 
       {workExperiences.map((experience, index) => (
-        <div key={index} className="">
+        <div key={index} className="text-start">
           <div className="flex gap-3 items-center">
             <img src={experience.logo} className="h-5 w-5" alt={`${experience.companyName} logo`} />
             <h2 className="text-lg text-[#FFFF] underline">{experience.companyName}</h2>
@@ -57,11 +57,11 @@ const Resume = () => {
       <div className="education">
         <h2 className='text-2xl font-medium'>Education</h2>
        <div>
-       <h3 className='text-xl font-medium mt-3 flex items-center gap-2'> <span className='underline'> SGGSJ Govt. College</span></h3>
+       <h3 className='text-xl font-medium mt-3 flex items-center gap-2'> <span className='text-[20px]'> SGGSJ Govt. College</span></h3>
        <p className='text-sm mt-1 '>Bachelor of Computer Applications | 2021 - 2024 | Himachal Pradesh, India</p>
        </div>
        <div>
-       <h3 className='text-xl font-medium mt-3'>The Scholar's Home</h3>
+       <h3 className='text-[20px] font-medium mt-3'>The Scholar's Home</h3>
        <p className='text-sm mt-1 '>10th |Paonta Sahib, Himachal Pradesh, India</p>
        </div>
       </div>

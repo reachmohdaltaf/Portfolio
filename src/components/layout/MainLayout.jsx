@@ -8,9 +8,10 @@ import Navbar from './Navbar';
 
   const MainLayout = () => {
     return (
-      <div className='lg:w-[55%] lg:mx-auto  p-5 w-full'>
+    <div className='flex justify-center items-center p-4 '>
+        <div className='lg:w-[55%] w-full'>
         <Navbar/>
-        <div className='mt-10'>
+        <div className='mt-10 flex   items-center'>
         <Outlet/>
         </div>
         <footer>
@@ -22,6 +23,7 @@ import Navbar from './Navbar';
      </div>
         </footer>
       </div>
+    </div>
     )
   }
 

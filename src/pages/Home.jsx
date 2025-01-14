@@ -11,10 +11,10 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col  gap-5">
      <div className="aboutme">
-     <h1 className='font-serif '>Sup, I'm Altaf 👋</h1>
-     <p className='mt-2 '>I’m a Full Stack Web Developer from Himachal Pradesh, India trying to make the internet a bit cooler one website at a time.</p>
+     <h1 className=' tracking-tight font-mono lg:font-serif sm:font-mono'>Sup, I'm Altaf 👋</h1>
+     <p className='mt-2 text-[17px] '>I’m a Full Stack Web Developer from Himachal Pradesh, India trying to make the internet a bit cooler one website at a time.</p>
      </div>
      <Separator/>
      <div>

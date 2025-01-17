@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     name: 'Connectify',
     description: 'A Social Media Application that connects people seamlessly.',
-    logo: 'https://connectify-h8zy.onrender.com/assets/logo-B9T138Ag.svg', // Replace with the actual path to the logo
+    logo: 'https://res.cloudinary.com/dqdwfvrkb/image/upload/v1737122025/193de76a-af5d-4396-9f54-1268385927f0.png', // Replace with the actual path to the logo
     technologies: ['React', 'Redux', 'Javascript', 'Node.js'],
     link: 'https://connectify-h8zy.onrender.com/', // Replace with the actual route or external URL
   },

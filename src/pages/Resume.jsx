@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../components/ui/button'
 import { Separator } from '../components/ui/separator';
+import  {AiOutlineDownload}        from 'react-icons/ai'
 
 
 
@@ -27,7 +28,7 @@ const Resume = () => {
 
   return (
     <div className="flex flex-col text-start gap-4">
-      <h1 className="font-serif">My Resume 📝</h1>
+      <div className='flex gap-3 items-center'><h1 className="font-serif">My Resume 📝</h1><a href="https://drive.google.com/file/d/1dwN3iwdZs8L29RhD7zt3XNj-ilWA4phz/view" target='_blank' ><AiOutlineDownload className='text-3xl  md:hidden hover:text-red-500 cursor-pointer' /></a></div>
       <h2 className="text-2xl mt-8 font-medium">Work Experience</h2>
 
       {workExperiences.map((experience, index) => (
